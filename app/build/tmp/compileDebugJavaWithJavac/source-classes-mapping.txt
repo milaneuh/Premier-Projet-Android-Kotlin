@@ -1,0 +1,8 @@
+com/example/premierprojet/BuildConfig.java
+ com.example.premierprojet.BuildConfig
+com/example/premierprojet/databinding/ActivityWebExBinding.java
+ com.example.premierprojet.databinding.ActivityWebExBinding
+com/example/premierprojet/databinding/WeatherActivityBinding.java
+ com.example.premierprojet.databinding.WeatherActivityBinding
+com/example/premierprojet/databinding/ActivityMainBinding.java
+ com.example.premierprojet.databinding.ActivityMainBinding

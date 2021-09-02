@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.premierprojet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:7:5-66
+13-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <application
+15-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:9:5-31:19
+16        android:allowBackup="true"
+16-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.2] C:\Users\milan\.gradle\caches\transforms-3\da10cfb2eeae6e089045776edcddfc36\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.PremierProjet" >
+24-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:15:9-51
+25        <activity
+25-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:16:9-18:39
+26            android:name="com.example.premierprojet.WebExActivity"
+26-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:17:13-42
+27            android:exported="true" />
+27-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:18:13-36
+28        <activity
+28-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:19:9-27:20
+29            android:name="com.example.premierprojet.MainActivity"
+29-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:20:13-41
+30            android:exported="true" >
+30-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:21:13-36
+31            <intent-filter>
+31-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:28:9-30:39
+38            android:name="com.example.premierprojet.WeatherActivity"
+38-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:29:13-44
+39            android:exported="true" />
+39-->C:\Users\milan\AndroidStudioProjects\PremierProjet\app\src\main\AndroidManifest.xml:30:13-36
+40    </application>
+41
+42</manifest>
